@@ -1,10 +1,9 @@
 {
   "name": "nfl-framer-ctv-to-remote",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -18,7 +17,14 @@
   "engines": {
     "node": "6.2.0"
   },
-  "scripts": {
-    "start": "node server.js"
-  }
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nfl-brett-cipperly/nfl-framer-prototype.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nfl-brett-cipperly/nfl-framer-prototype/issues"
+  },
+  "homepage": "https://github.com/nfl-brett-cipperly/nfl-framer-prototype#readme",
+  "description": ""
 }
